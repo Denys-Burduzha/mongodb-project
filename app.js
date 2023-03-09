@@ -4,7 +4,7 @@
 
 const mogoose = require("mongoose");
 
-const DB_HOST = "mongodb+srv://Denys:Fedir4lapy1hvost@cluster0.p4dr4y4.mongodb.net/online_shop?retryWrites=true&w=majority"
+const DB_HOST = require("./config");
 
 
 mogoose.connect(DB_HOST)
